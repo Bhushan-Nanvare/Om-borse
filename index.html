@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .hero {
+            background-image: url('a.jpg');
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.7);
+            font-family: 'Georgia', serif;
+            transition: transform 0.3s ease, text-shadow 0.3s ease;
+        }
+        
+        /* Hover Effect */
+        .hero:hover {
+            transform: scale(1.05); /* Slight zoom effect */
+            text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.8); /* Glow effect */
+        }
+
+        /* Touchscreen Tap Effect */
+        @media (hover: none) {
+            .hero:active {
+                transform: scale(1.05);
+                text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.8);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">Om Borse</div>
+    
+    <div class="section" id="education">
+        <h2>Education</h2>
+        <p>
+            Sanjivani University, Kopargaon, Expected in 07/2027 
+        </p>Bachelor of Science: B-Tech Computer Science</p>
+    </div>
+
+    
+    <div class="section" id="skills">
+        <h2>Skills</h2>
+        <p>Web Development</p>
+        <p>Project Management</p>
+        <p>Machine Learning</p>
+        <p>Java Programming</p>
+    </div>
+    
+    <div class="section" id="experience">
+        <h2>Experience</h2>
+        <p> INTERN, 07/2022-08/2022
+        
+            <p>Student, Nashik, India </p>
+            
+            Set specific goals for projects to measure progress and evaluate end results.
+            
+            Organized client meetings to provide project updates.</p>
+    </div>
+    
+    <div class="section" id="achievements">
+        <h2>Achievements</h2>
+        <p>In Diploma Third Year Done a Project are Online Paithani Shop. In that project we used frontend as html,css.js and backend used java and database used Xampp.</p>
+    </div>
+    
+    <div class="section" id="contact">
+        <h2>Contact</h2>
+        <p>Linkdin: https://www.linkedin.com/in/om-borse-663788244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app</p>
+    </div>
+</body>
+</html>
